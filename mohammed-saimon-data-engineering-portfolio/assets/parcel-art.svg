@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 510" width="980" height="510" role="img">
+  <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b2b2c"/><stop offset="1" stop-color="#2a3730"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c4f57d"/><stop offset="1" stop-color="#74dabb"/></linearGradient>
+  <pattern id="grid" width="33" height="33" patternUnits="userSpaceOnUse"><path d="M 33 0 L 0 0 0 33" fill="none" stroke="#a8cfc0" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="980" height="510" fill="url(#bg)"/>
+  <rect width="980" height="510" fill="url(#grid)"/>
+  <circle cx="910" cy="50" r="280" fill="#6ed3aa" opacity=".035"/>
+  
+  <rect x="43" y="40" width="894" height="430" rx="18" fill="#16252d" stroke="#4c625d"/>
+  <rect x="43" y="40" width="894" height="51" rx="18" fill="#23363d"/><rect x="43" y="74" width="894" height="17" fill="#23363d"/>
+  <circle cx="76" cy="64" r="5" fill="#d39d88"/><circle cx="94" cy="64" r="5" fill="#d7be80"/><circle cx="112" cy="64" r="5" fill="#92c6aa"/>
+  <text x="144" y="70" fill="#b0c8cb" font-family="Arial" font-size="14" letter-spacing="2">PARCEL EVENTS  /  BATCH INGESTION</text>
+  <rect x="69" y="117" width="844" height="125" rx="11" fill="#1a2b33" stroke="#3f565a"/>
+  <text x="94" y="149" fill="#9bb8b5" font-family="Arial" font-size="13" letter-spacing="2">EVENT TIMELINE</text>
+  <line x1="166" y1="192" x2="817" y2="192" stroke="#719a8d" stroke-width="3" stroke-dasharray="8 9"/>
+  <circle cx="190" cy="192" r="15" fill="#264d42" stroke="#bff47d" stroke-width="4"/>
+  <circle cx="380" cy="192" r="15" fill="#264d42" stroke="#bff47d" stroke-width="4"/>
+  <circle cx="570" cy="192" r="15" fill="#264d42" stroke="#bff47d" stroke-width="4"/>
+  <circle cx="770" cy="192" r="15" fill="#264d42" stroke="#bff47d" stroke-width="4"/>
+  <text x="164" y="224" fill="#c6dcd7" font-family="Arial" font-size="12">Created</text><text x="352" y="224" fill="#c6dcd7" font-family="Arial" font-size="12">Sorted</text><text x="536" y="224" fill="#c6dcd7" font-family="Arial" font-size="12">In transit</text><text x="748" y="224" fill="#c6dcd7" font-family="Arial" font-size="12">Delivered</text>
+  <rect x="69" y="262" width="262" height="164" rx="11" fill="#20383b" stroke="#3f5c55"/>
+  <text x="92" y="296" fill="#91b7b3" font-family="Arial" font-size="13" letter-spacing="1">PARCELS / SAMPLE</text><text x="92" y="360" fill="#d7f4e3" font-family="Arial" font-size="56" font-weight="bold">800</text><text x="93" y="389" fill="#9db6b3" font-family="Arial" font-size="12">Synthetic shipment records</text>
+  <rect x="348" y="262" width="262" height="164" rx="11" fill="#20383b" stroke="#3f5c55"/>
+  <text x="371" y="296" fill="#91b7b3" font-family="Arial" font-size="13" letter-spacing="1">SCAN EVENTS</text><text x="371" y="360" fill="#d7f4e3" font-family="Arial" font-size="56" font-weight="bold">3,110</text><text x="371" y="389" fill="#9db6b3" font-family="Arial" font-size="12">Accepted in sample run</text>
+  <rect x="627" y="262" width="286" height="164" rx="11" fill="#20383b" stroke="#3f5c55"/>
+  <text x="650" y="296" fill="#91b7b3" font-family="Arial" font-size="13" letter-spacing="1">REGRESSION TESTS</text><text x="650" y="360" fill="#c4f57d" font-family="Arial" font-size="56" font-weight="bold">11</text><text x="650" y="389" fill="#9db6b3" font-family="Arial" font-size="12">Duplicate &amp; late scan handling</text>
+
+  </svg>

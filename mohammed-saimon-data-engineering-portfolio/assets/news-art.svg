@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 510" width="980" height="510" role="img">
+  <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#182b34"/><stop offset="1" stop-color="#243b3f"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c4f57d"/><stop offset="1" stop-color="#74dabb"/></linearGradient>
+  <pattern id="grid" width="33" height="33" patternUnits="userSpaceOnUse"><path d="M 33 0 L 0 0 0 33" fill="none" stroke="#a8cfc0" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="980" height="510" fill="url(#bg)"/>
+  <rect width="980" height="510" fill="url(#grid)"/>
+  <circle cx="910" cy="50" r="280" fill="#6ed3aa" opacity=".035"/>
+  
+  <text x="70" y="77" fill="#c7e0e3" font-family="Arial" font-size="20" font-weight="bold" letter-spacing="1.5">COMPANY INTELLIGENCE MONITOR</text>
+  <text x="70" y="108" fill="#7b9ea9" font-family="Arial" font-size="15" letter-spacing="1">RSS / POSTGRESQL / RULE-BASED FLAGS</text>
+  <rect x="70" y="166" width="240" height="192" rx="18" fill="#22363d" stroke="#56737a" stroke-width="2"/>
+  <rect x="370" y="166" width="240" height="192" rx="18" fill="#233d3d" stroke="#6d9990" stroke-width="2"/>
+  <rect x="670" y="166" width="240" height="192" rx="18" fill="#293a38" stroke="#729e84" stroke-width="2"/>
+  <text x="190" y="228" fill="#aad2d9" font-family="Arial" font-size="46" text-anchor="middle">↗</text>
+  <text x="490" y="228" fill="#a5e0cd" font-family="Arial" font-size="46" text-anchor="middle">▤</text>
+  <text x="790" y="228" fill="#c4f57d" font-family="Arial" font-size="46" text-anchor="middle">◇</text>
+  <text x="190" y="284" fill="#dce9ec" font-family="Arial" font-size="23" font-weight="bold" text-anchor="middle">News RSS</text>
+  <text x="490" y="284" fill="#dce9ec" font-family="Arial" font-size="23" font-weight="bold" text-anchor="middle">PostgreSQL</text>
+  <text x="790" y="284" fill="#dce9ec" font-family="Arial" font-size="23" font-weight="bold" text-anchor="middle">Event flags</text>
+  <text x="190" y="310" fill="#9ab5bb" font-family="Arial" font-size="13" text-anchor="middle">Article observations</text>
+  <text x="490" y="310" fill="#9ab5bb" font-family="Arial" font-size="13" text-anchor="middle">Deduplicate URLs</text>
+  <text x="790" y="310" fill="#9ab5bb" font-family="Arial" font-size="13" text-anchor="middle">Keyword categories</text>
+  <path d="M 318 262 L 363 262" stroke="#a5dac6" stroke-width="4" stroke-linecap="round"/><path d="M 354 253 L 364 262 L 354 271" stroke="#a5dac6" stroke-width="4" fill="none"/>
+  <path d="M 618 262 L 663 262" stroke="#a5dac6" stroke-width="4" stroke-linecap="round"/><path d="M 654 253 L 664 262 L 654 271" stroke="#a5dac6" stroke-width="4" fill="none"/>
+  <rect x="65" y="418" width="220" height="33" rx="8" fill="#28404d" stroke="#6496ae"/>
+  <text x="175" y="440" fill="#bbe3f1" font-family="Arial" font-size="13" text-anchor="middle" letter-spacing="1">WORKFLOW PROTOTYPE</text>
+
+  </svg>
