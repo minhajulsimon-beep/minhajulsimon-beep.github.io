@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 510" width="980" height="510" role="img">
+  <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#142932"/><stop offset="1" stop-color="#264740"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c4f57d"/><stop offset="1" stop-color="#74dabb"/></linearGradient>
+  <pattern id="grid" width="33" height="33" patternUnits="userSpaceOnUse"><path d="M 33 0 L 0 0 0 33" fill="none" stroke="#a8cfc0" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="980" height="510" fill="url(#bg)"/>
+  <rect width="980" height="510" fill="url(#grid)"/>
+  <circle cx="910" cy="50" r="280" fill="#6ed3aa" opacity=".035"/>
+  
+  <rect x="45" y="40" width="890" height="430" rx="18" fill="#12232d" fill-opacity=".95" stroke="#436362"/>
+  <rect x="45" y="40" width="890" height="52" rx="18" fill="#21353e"/>
+  <rect x="45" y="72" width="890" height="20" fill="#21353e"/>
+  <circle cx="77" cy="66" r="5" fill="#d39d88"/><circle cx="95" cy="66" r="5" fill="#d7be80"/><circle cx="113" cy="66" r="5" fill="#92c6aa"/>
+  <text x="148" y="71" fill="#a3c7c6" font-size="14" font-family="Arial" letter-spacing="2">NORDIC WEATHER  /  PIPELINE OVERVIEW</text>
+  <rect x="71" y="115" width="558" height="316" rx="12" fill="#162b35" stroke="#39525c"/>
+  <text x="99" y="153" fill="#b0cdce" font-family="Arial" font-size="15" letter-spacing="1.3">HISTORICAL WEATHER TREND</text>
+  <text x="99" y="187" fill="#e2f5f0" font-family="Arial" font-weight="bold" font-size="27">4 Danish cities</text>
+  <text x="99" y="210" fill="#789fa1" font-family="Arial" font-size="13">Illustrative weather series</text>
+  <path d="M 100 266 H 592 M 100 314 H 592 M 100 362 H 592 M 100 410 H 592" stroke="#5e8989" stroke-opacity=".35" stroke-width="1" />
+  <path d="M 110 349 L 150 327 L 190 337 L 230 292 L 270 304 L 310 281 L 350 315 L 390 269 L 430 290 L 470 245 L 510 273 L 555 229 L 590 247" fill="none" stroke="#c4f57d" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 110 369 L 150 354 L 190 372 L 230 344 L 270 337 L 310 355 L 350 340 L 390 354 L 430 327 L 470 342 L 510 313 L 555 324 L 590 301" fill="none" stroke="#70d5cb" stroke-width="3" opacity=".7"/>
+  <circle cx="555" cy="229" r="7" fill="#c4f57d" stroke="#17352d" stroke-width="3"/>
+  <rect x="649" y="115" width="256" height="88" rx="10" fill="#1d3439" stroke="#3f6560"/>
+  <text x="670" y="145" fill="#91afa9" font-family="Arial" font-size="12" letter-spacing="1.3">SOURCE</text><text x="670" y="178" fill="#e5f9f2" font-family="Arial" font-size="23" font-weight="bold">Open-Meteo API</text>
+  <rect x="649" y="216" width="256" height="88" rx="10" fill="#20423e" stroke="#5c9980"/>
+  <text x="670" y="247" fill="#a3d9b3" font-family="Arial" font-size="12" letter-spacing="1.3">TRANSFORM</text><text x="670" y="281" fill="#d7f6d9" font-family="Arial" font-size="23" font-weight="bold">PySpark</text>
+  <rect x="649" y="317" width="256" height="88" rx="10" fill="#1d3439" stroke="#3f6560"/>
+  <text x="670" y="348" fill="#91afa9" font-family="Arial" font-size="12" letter-spacing="1.3">DELIVER</text><text x="670" y="382" fill="#e5f9f2" font-family="Arial" font-size="23" font-weight="bold">Parquet + SQL</text>
+  <rect x="649" y="419" width="138" height="20" rx="6" fill="#345d48"/><text x="661" y="433" font-family="Arial" font-size="11" fill="#c6f6cb" letter-spacing="1.3">TESTED PIPELINE</text>
+
+  </svg>
